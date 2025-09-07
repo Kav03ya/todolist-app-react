@@ -13,8 +13,7 @@ export default function TodoManager(){
             <br></br>
             <ActionButton text = "Add task" variant="outlined" onClicking={()=>handleClick(newTask, setTodoList, setNewTask)}/>
             <br></br>
-            <h2>To-do List</h2>
-             <hr></hr>
+             {/* <hr></hr> */}
             <DisplayTask list={todolist} setTodoList={setTodoList} />
             <br></br>
             <ActionButton text="Mark all done" variant="contained" color="success" onClicking={()=>markAllDone(setTodoList)}/>

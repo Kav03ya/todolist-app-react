@@ -40,3 +40,31 @@
 .read-the-docs {
   color: #888;
 }
+
+.todo-container {
+  /* background: #faf9f6; */
+  padding: 1.5rem;
+  padding-left: 0;
+  border-radius: 12px;
+  max-width: 500px;
+  margin: 0 auto;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.3);
+}
+
+.todo-list{
+  padding-left: 20px;
+}
+.todo-list li {
+  background: #f5f5f5;
+  padding: 0.8rem 1rem;
+  margin-bottom: 0.6rem;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.todo-list li span {
+  flex: 1;
+  text-align: left;
+}
